@@ -4,14 +4,6 @@ UIT Scholarship Radar là một website tĩnh giúp sinh viên UIT kiểm tra kh
 
 Website được xây dựng bởi **UIT Knowledge** nhằm hỗ trợ sinh viên tham khảo nhanh mốc GPA dự đoán theo từng ngành/khoá.
 
-## Demo
-
-Sau khi deploy lên Vercel, bạn có thể thêm link tại đây:
-
-```txt
-https://your-project-name.vercel.app
-```
-
 ## Tính năng chính
 
 - Nhập MSSV, ngành học và GPA để kiểm tra khả năng nhận học bổng.
@@ -44,90 +36,6 @@ Dự án sử dụng các công nghệ đơn giản, dễ deploy:
 ├── index.html
 ├── favicon.svg
 └── README.md
-```
-
-> Lưu ý: file chính của website là `index.html`, cần đặt ở thư mục gốc để Vercel nhận diện và deploy đúng.
-
-## Cách chạy trên máy local
-
-Chỉ cần mở trực tiếp file `index.html` bằng trình duyệt.
-
-Hoặc dùng extension **Live Server** trong VS Code:
-
-1. Mở project bằng VS Code.
-2. Cài extension `Live Server`.
-3. Click chuột phải vào `index.html`.
-4. Chọn `Open with Live Server`.
-
-## Cách deploy lên Vercel
-
-### Cách 1: Deploy bằng GitHub
-
-1. Tạo repository mới trên GitHub.
-2. Push source code lên GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/your-username/your-repo-name.git
-git push -u origin main
-```
-
-3. Vào Vercel.
-4. Chọn **Add New Project**.
-5. Import repository từ GitHub.
-6. Giữ cấu hình mặc định:
-   - Framework Preset: `Other`
-   - Build Command: để trống
-   - Output Directory: để trống
-7. Chọn **Deploy**.
-
-### Cách 2: Deploy bằng Vercel CLI
-
-Cài Vercel CLI:
-
-```bash
-npm install -g vercel
-```
-
-Deploy project:
-
-```bash
-vercel
-```
-
-Deploy production:
-
-```bash
-vercel --prod
-```
-
-## Gợi ý tên repository
-
-Bạn có thể đặt tên repository là:
-
-```txt
-uit-scholarship-radar
-```
-
-hoặc:
-
-```txt
-uit-scholarship-checker
-```
-
-Tên project trên Vercel có thể là:
-
-```txt
-uit-scholarship-radar
-```
-
-Khi deploy xong, link có thể có dạng:
-
-```txt
-https://uit-scholarship-radar.vercel.app
 ```
 
 ## Lưu ý quan trọng
