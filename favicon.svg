@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#050505"/>
+  
+  <!-- Cyan circle border -->
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#00e5cc" stroke-width="2"/>
+  
+  <!-- UIT text -->
+  <text x="32" y="38" font-family="Montserrat, sans-serif" font-size="24" font-weight="700" fill="#00e5cc" text-anchor="middle" letter-spacing="-0.5">UIT</text>
+  
+  <!-- Accent dot -->
+  <circle cx="48" cy="16" r="3" fill="#a78bfa"/>
+</svg>
